@@ -1,7 +1,4 @@
-.top{
-    /* display: inline-flex; */
-    
-}
+ 
 .sidebar{
     display: inline-flex;
     flex-direction: column;
@@ -49,7 +46,6 @@
 }
 .recent-entry:hover{
    background-color: #e2e6eb;
-
 }
 .bottom{
     display: flex;
@@ -63,4 +59,5 @@
     .sidebar{
         display: none;
     }
+
 }

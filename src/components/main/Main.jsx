@@ -75,9 +75,12 @@ function Main() {
             </div>
             <p className='bottom-info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, incidunt.</p>
           </div>
+          
        </div>
+        
     </div>
        
+      
     </>
   )
 }

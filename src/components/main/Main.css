@@ -62,8 +62,9 @@
     position: absolute;
     bottom: 20px;
     width: 100%;
-    margin: auto;
-    max-width: 900px;
+    
+    
+   
 
 }
 .search-box{
@@ -156,23 +157,28 @@
      
     .main-container{
         margin: auto;
-        height: 240vh;
         padding: 0px 10px;
     }
     .main-text{
         padding: 20px;
     }
     .card-main{
+       
         display: flex;
         flex-direction: column;
         gap: 15px;
         padding: 10px;
         margin-bottom: 20px;
+        cursor: pointer; 
+        
     }
+    
+   
     .main-bottom{
-        margin-bottom: 0;
-        padding: 10px 15px;
-        bottom: 0;
+        position: absolute;
+        top: 1150px;
+        padding: 10px 25px;
+        
     }
     .main-bottom input{
         flex: none;

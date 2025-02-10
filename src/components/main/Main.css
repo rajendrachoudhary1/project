@@ -1,6 +1,7 @@
 .main{
     flex: 1;
-     position: relative;
+    position: relative;
+    
 }
 .nav{
     display: flex;
@@ -16,7 +17,8 @@
 .main-container{
     margin: auto;
     max-width: 900px;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .main-text p{
   font-size: 30px;
@@ -29,6 +31,7 @@
 }
 .card-main{
     display: flex;
+    /* flex-direction: column; */
     gap: 10px;
     margin-top: 40px;
 }
@@ -72,6 +75,8 @@
     border-radius: 50px;
     height: 20px;
     background-color: #f0f4f9;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .search-box input{
     flex: 1;
@@ -145,4 +150,34 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+     
+    .main-container{
+        margin: auto;
+        padding: 0px 10px;
+    }
+    .main-text{
+        padding: 20px;
+    }
+    .card-main{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .main-bottom{
+        margin-bottom: 0;
+        padding: 10px 15px;
+        bottom: 0;
+    }
+    .main-bottom input{
+        flex: none;
+        width: 150px;
+    }
+    .main-bottom img{
+        width: 20px;
+    }
 }

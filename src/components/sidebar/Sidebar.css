@@ -1,0 +1,60 @@
+.top{
+    /* display: inline-flex; */
+    
+}
+.sidebar{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+    height: 100vh;
+  
+}
+.sidebar img{
+    width: 20px;
+}
+ .menu{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.new-chats{
+    display: flex;
+    align-items: center;
+    padding: 5px 4px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: gray;
+    background-color: #e6eaf1;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+ 
+.recent{
+    gap: 20px;
+}
+.recent-title{
+    margin-bottom: 10px;
+}
+.recent-entry{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 50px;
+    /* padding-left: 10px; */
+    border-radius: 50px;
+    color: #282828;
+     
+}
+.recent-entry:hover{
+   background-color: #e2e6eb;
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-item{
+    margin-bottom: 4px;
+}

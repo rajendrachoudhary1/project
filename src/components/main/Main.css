@@ -156,6 +156,7 @@
      
     .main-container{
         margin: auto;
+        height: 240vh;
         padding: 0px 10px;
     }
     .main-text{
